@@ -26,10 +26,10 @@ function init() {
     let pickImg = document.querySelector("header + img");
     
 
-    pickImg.src = '/assets/images/' + hornSelect.value + '.svg';
+    pickImg.src = './assets/images/' + hornSelect.value + '.svg';
     //pickImg[0].src = '/assets/images/' + hornSelect.value + '.svg';
     
-    sound.src = '/assets/audio/' + hornSelect.value + '.mp3';
+    sound.src = './assets/audio/' + hornSelect.value + '.mp3';
   })
   
   //changing volume images and sound for each level
